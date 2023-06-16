@@ -907,7 +907,7 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--logo-color);
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .modal-field {
@@ -1064,6 +1064,8 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin: 24px auto;
+  cursor: pointer;
+  border: none;
 }
 
 .modal-send-btn:hover,
