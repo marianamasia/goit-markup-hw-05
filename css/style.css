@@ -1012,7 +1012,7 @@ img {
   outline: 1px solid var(--button-color);
 }
 
-.modal-checkbox:checked span {
+.modal-checkbox:checked + .user-privacy-check > .check-icon {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
