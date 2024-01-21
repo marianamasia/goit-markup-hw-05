@@ -601,7 +601,7 @@ img {
 
 .input-subscribe {
   font-size: 12px;
-  line-height: 1.5;
+  line-height: 2;
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
@@ -614,6 +614,7 @@ img {
   min-width: 264px;
   height: 40px;
   padding: 8px 16px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .input-subscribe::placeholder {
