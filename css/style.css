@@ -1012,6 +1012,12 @@ img {
   outline: 1px solid var(--button-color);
 }
 
+.modal-checkbox:checked span {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
+
 .check-text {
   font-size: 12px;
   line-height: 1.17;
