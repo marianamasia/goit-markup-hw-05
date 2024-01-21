@@ -1078,5 +1078,10 @@ img {
 
 .modal-send-btn:hover,
 .modal-send-btn:focus {
-  background-color: var(--pressed-state);
+  background-color: #404bbf;
+  border: none;
+}
+
+.odal-send-btn:hover .modal-icon {
+  fill: #ffffff;
 }
