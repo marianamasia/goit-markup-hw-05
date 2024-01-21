@@ -1076,12 +1076,20 @@ img {
   border: none;
 }
 
-.modal-send-btn:hover,
+.modal-send-btn:hover {
+  background-color: #404bbf;
+  border: none;
+}
+
 .modal-send-btn:focus {
   background-color: #404bbf;
   border: none;
 }
 
-.odal-send-btn:hover .modal-icon {
+.modal-send-btn:hover .modal-icon {
+  fill: #ffffff;
+}
+
+.modal-send-btn:focus .modal-icon {
   fill: #ffffff;
 }
