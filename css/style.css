@@ -589,9 +589,8 @@ img {
 
 .all-section {
   background-color: var(--main-title-color);
-  height: 732px;
   padding-top: 120px;
-  padding-bottom: 120px;
+  padding-bottom: 0px;
 }
 
 .portfolio-title {
